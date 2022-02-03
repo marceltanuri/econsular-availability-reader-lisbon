@@ -11,3 +11,6 @@ Notes:
 * `<service_name>`: Replace it by the service name you want to schedule, e.g: 'CNH - Declaração'. It must be the same name that apears in the <i>ec-lisboa.itamaraty.gov.br/availability</i> page.
 * `<email>`: Enter your email registered in the econsular portal
 * `<password>`: Enter your password
+
+4. The program will keep in looping with 60 secounds interval.
+5. A ring sound will be played whenever the service was found available <i>(Only for Windows)</i>
