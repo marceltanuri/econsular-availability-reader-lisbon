@@ -9,7 +9,7 @@ How to use it:
 4. Run `py econsular.py '<service_name>' <email> <password>`
 
 Notes:
-* `<service_name>`: Replace it by the service name you want to schedule, e.g: 'CNH - Declaração'. It must be the same name that apears in the <i>ec-lisboa.itamaraty.gov.br/availability</i> page.
+* `<service_name>`: Replace it by the service name you want to schedule, e.g: 'CNH - Declaração'. It must be the same name that appears in the <i>ec-lisboa.itamaraty.gov.br/availability</i> page.
 * `<email>`: Enter your email registered in the econsular portal
 * `<password>`: Enter your password
 
