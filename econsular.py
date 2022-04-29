@@ -41,9 +41,22 @@ def econsular():
         1].split('<td class="align-middle">')[1].split('</td></tr><tr>')[0]
 
     print("Disponibilidade do Serviço: " + serviceName)
+    sys.stdout.flush()
     print(result)
 
     if result.find("mais tarde") < 0:
+        print("=================== Available =====================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
+        print("===================================================")
         winsound.Beep(freq, duration)
 
 econsular()
@@ -52,7 +65,11 @@ s = sched.scheduler(time.time, time.sleep)
 
 def sched_method(sc): 
     econsular()
+    sys.stdout.write("Waiting 1 minute before next request")
+    sys.stdout.flush()
     s.enter(60, 1, sched_method, (sc,))
 
+sys.stdout.write("Waiting 1 minute before next request")
+sys.stdout.flush()
 s.enter(60, 1, sched_method, (s,))
 s.run()
